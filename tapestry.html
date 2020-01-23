@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 
 <html>
-
+ 
 <head>
 
 <meta charset="utf-8">
 
 	<title> Commitment: Git Some (Github) </title>
+  
 	<style> 
+		iframe:focus {
+  outline: none;
+}
+
+iframe[seamless] {
+  display: block;
+}
 		.right{ 
 			float: right;
 		}
@@ -43,8 +51,9 @@
 
 <body>
 	
-<audio controls>
-  <source src="inspire.mp3">
+<iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+<audio id="player" autoplay loop controls>
+    <source src="inspire.mp3" type="audio/mp3">
 </audio>
 
 	<center><img src="meme1.jpg"></img></center>
