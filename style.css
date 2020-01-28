@@ -14,10 +14,7 @@
 			border-style:solid;
 		}
 		img{
-			max-width: 150%;
- 			height: auto;
- 			position: relative;
-  			right: 30px;
+			position: relative;
 		}
 		body{
 			background: rgb(255,255,255); /* Old browsers */
@@ -43,5 +40,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 		p{
 			font-size:20px;
 			color:#303030;
+		}
+		br1{
+			display: block;
+   			line-height: 50px;
 		}
 	
