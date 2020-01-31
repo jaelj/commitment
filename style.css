@@ -44,8 +44,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc1ba', end
 			font-size:20px;
 			color:#303030;
 			margin:auto;
-			width:70%;
-
+			width:60%;
+			text-align: justify;
+		}
+		ul{
+			
+			width:30%;
+		
 		}
 		br1{
 			display: block;
