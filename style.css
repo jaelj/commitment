@@ -60,6 +60,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc1ba', end
       position: relative;
       width: 100px;
       height: 90px;
+      bottom: 50px
     }
     .heart:before,
     .heart:after {
