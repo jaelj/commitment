@@ -1,61 +1,63 @@
 
-    .infinity1 {
-      position: absolute;
-      padding: 0px;
-      width: 212px;
-      height: 100px;
-      top:100px;
-      left: 1000px;
+.infinity1 {
+	position: absolute;
+	padding: 0px;
+	width: 212px;
+	height: 100px;
+	top:100px;
+	left: 1000px;
     }
-    .infinity1:before,
+.infinity1:before,
+.infinity1:after {
+    content: "";
+    box-sizing: content-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    border: 20px solid black;
+    border-radius: 50px 50px 0 50px;
+    transform: rotate(-45deg);
+    }
     .infinity1:after {
-      content: "";
-      box-sizing: content-box;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 60px;
-      height: 60px;
-      border: 20px solid black;
-      border-radius: 50px 50px 0 50px;
-      transform: rotate(-45deg);
+	left: auto;
+	right: 0;
+	border-radius: 50px 50px 50px 0;
+	transform: rotate(45deg);
     }
-    .infinity1:after {
-      left: auto;
-      right: 0;
-      border-radius: 50px 50px 50px 0;
-      transform: rotate(45deg);
+
+.infinity {
+	position: absolute;
+	padding: 0px;
+	width: 212px;
+	height: 100px;
+	top:100px;
+	left: 55px;
     }
-    .infinity {
-      position: absolute;
-      padding: 0px;
-      width: 212px;
-      height: 100px;
-      top:100px;
-      left: 55px;
+.infinity:before,
+.infinity:after {
+	content: "";
+	box-sizing: content-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 60px;
+	border: 20px solid black;
+	border-radius: 50px 50px 0 50px;
+	transform: rotate(-45deg);
     }
-    .infinity:before,
-    .infinity:after {
-      content: "";
-      box-sizing: content-box;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 60px;
-      height: 60px;
-      border: 20px solid black;
-      border-radius: 50px 50px 0 50px;
-      transform: rotate(-45deg);
-    }
-    .infinity:after {
-      left: auto;
-      right: 0;
-      border-radius: 50px 50px 50px 0;
-      transform: rotate(45deg);
+.infinity:after {
+	left: auto;
+	right: 0;
+	border-radius: 50px 50px 50px 0;
+	transform: rotate(45deg);
     }
   /*Credit to Nicolas Gallagher*/
     /*Infinity Code Taken From CSS-Tricks Website (https://css-tricks.com/the-shapes-of-css/) */
-		.triangle-down {
+
+.triangle-down {
 	width: 0;
 	height: 0;
 	border-left: 25px solid transparent;
@@ -64,77 +66,87 @@
 	color: white;
 }
 .right{ 
-			float: right;
-		}
-		main{
-			border-style:solid;
-		}
-		img{
-			position: relative;
-		}
-		body{
+	float: right;
+}
+
+main{
+	border-style:solid;
+}
+
+img{
+	position: relative;
+}
+
+body{
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#efc1ba+12,f6290c+58,f02f17+100,e73827+100,f02f17+100 */
-background: rgb(239,193,186); /* Old browsers */
-background: -moz-linear-gradient(-45deg, rgba(239,193,186,1) 12%, rgba(246,41,12,1) 58%, rgba(240,47,23,1) 100%, rgba(231,56,39,1) 100%, rgba(240,47,23,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, rgba(239,193,186,1) 12%,rgba(246,41,12,1) 58%,rgba(240,47,23,1) 100%,rgba(231,56,39,1) 100%,rgba(240,47,23,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, rgba(239,193,186,1) 12%,rgba(246,41,12,1) 58%,rgba(240,47,23,1) 100%,rgba(231,56,39,1) 100%,rgba(240,47,23,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc1ba', endColorstr='#f02f17',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-			top:0px;
-			font-family:verdana;
-			border-style: inset;
-			border-color: black;
+	background: rgb(239,193,186); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(239,193,186,1) 12%, rgba(246,41,12,1) 58%, rgba(240,47,23,1) 100%, rgba(231,56,39,1) 100%, rgba(240,47,23,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(239,193,186,1) 12%,rgba(246,41,12,1) 58%,rgba(240,47,23,1) 100%,rgba(231,56,39,1) 100%,rgba(240,47,23,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(239,193,186,1) 12%,rgba(246,41,12,1) 58%,rgba(240,47,23,1) 100%,rgba(231,56,39,1) 100%,rgba(240,47,23,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc1ba', endColorstr='#f02f17',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	/*Citation needs to go here*/
+	top:0px;
+	font-family:verdana;
+	border-style: inset;
+	border-color: black;
 			
-		}
-		h1{
-			font-size:80px;
-			font-family:Impact,fantasy;
-			color: white;
-		}
-		h2{
-			font-size:30px;
-		}
-		h3{
-			font size:25px;
-		}
-		p{
-			font-size:20px;
-			color:#303030;
-			margin:auto;
-			width:60%;
-			text-align: justify;
-		}
-		ul{
-			margin-left: 50px;
-			width:30%;
+}
+h1{
+	font-size:80px;
+	font-family:Impact,fantasy;
+	color: white;
+}
 		
-		}
-		br1{
-			display: block;
-   			line-height: 50px;
-		}
-	.heart {
-      position: relative;
-      width: 100px;
-      height: 90px;
-      bottom: 50px
-    }
-    .heart:before,
-    .heart:after {
-      position: absolute;
-      content: "";
-      left: 50px;
-      top: 0;
-      width: 50px;
-      height: 80px;
-      background: black;
-      border-radius: 50px 50px 0 0;
-      transform: rotate(-45deg);
-      transform-origin: 0 100%;
-    }
-    .heart:after {
-      left: 0;
-      transform: rotate(45deg);
-      transform-origin: 100% 100%;
-    }
-	/*Credit to Nicolas Gallagher*/
-    /*Heart Code Taken From CSS-Tricks Website (https://css-tricks.com/the-shapes-of-css/) */
+h2{
+	font-size:30px;
+}
+
+h3{
+	font size:25px;
+}
+
+p{
+	font-size:20px;
+	color:#303030;
+	margin:auto;
+	width:60%;
+	text-align: justify;
+}
+
+ul{
+	margin-left: 50px;
+	width:30%;
+		
+}
+		
+br1{
+	display: block;
+   	line-height: 50px;
+}
+
+.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    bottom: 50px
+}
+.heart:before,
+.heart:after {
+	position: absolute;
+	content: "";
+	left: 50px;
+	top: 0;
+	width: 50px;
+	height: 80px;
+	background: black;
+	border-radius: 50px 50px 0 0;
+	transform: rotate(-45deg);
+	transform-origin: 0 100%;
+}
+.heart:after {
+	left: 0;
+	transform: rotate(45deg);
+	transform-origin: 100% 100%;
+}
+/*Credit to Nicolas Gallagher*/
+/*Heart Code Taken From CSS-Tricks Website (https://css-tricks.com/the-shapes-of-css/) */
