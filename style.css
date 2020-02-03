@@ -78,17 +78,18 @@ img{
 
 body{
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,e3e7ea+28,e5ebee+47,d7dee3+100,f5f7f9+100,d7dee3+101 */
-background: rgb(255,255,255); /* Old browsers */
-background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(227,231,234,1) 28%, rgba(229,235,238,1) 47%, rgba(215,222,227,1) 100%, rgba(245,247,249,1) 100%, rgba(215,222,227,1) 101%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%,rgba(227,231,234,1) 28%,rgba(229,235,238,1) 47%,rgba(215,222,227,1) 100%,rgba(245,247,249,1) 100%,rgba(215,222,227,1) 101%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(227,231,234,1) 28%,rgba(229,235,238,1) 47%,rgba(215,222,227,1) 100%,rgba(245,247,249,1) 100%,rgba(215,222,227,1) 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d7dee3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(227,231,234,1) 28%, rgba(229,235,238,1) 47%, rgba(215,222,227,1) 100%, rgba(245,247,249,1) 100%, rgba(215,222,227,1) 101%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%,rgba(227,231,234,1) 28%,rgba(229,235,238,1) 47%,rgba(215,222,227,1) 100%,rgba(245,247,249,1) 100%,rgba(215,222,227,1) 101%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%,rgba(227,231,234,1) 28%,rgba(229,235,238,1) 47%,rgba(215,222,227,1) 100%,rgba(245,247,249,1) 100%,rgba(215,222,227,1) 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d7dee3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	top:0px;
 	font-family:verdana;
 	border-style: inset;
 	border-color: black;
 			
 }
+
 h1{
 	font-size:100px;
 	font-family:Impact,fantasy;
