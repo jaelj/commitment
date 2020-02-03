@@ -61,8 +61,9 @@
 	height: 0;
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
-	border-top: 50px solid purple;
-	color: purple;
+	border-top: 50px solid black;
+	color: black;
+
 }
 .right{ 
 	float: right;
@@ -93,7 +94,9 @@ body{
 h1{
 	font-size:100px;
 	font-family:Impact,fantasy;
-	color: purple;
+	color: white;
+	-webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
 }
 		
 h2{
