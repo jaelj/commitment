@@ -12,6 +12,10 @@ Sublime Text, Mac Terminal
 ## Downloads:
 Emmet, Git, GitHub Desktop
 
+## Getting Started:
+
+## How to Help:
+
 ## Contributors:
 Jael Johnson
 
