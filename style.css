@@ -114,6 +114,9 @@ p{
 	width:60%;
 	text-align: justify;
 }
+p1{
+	line-height: 0px;
+}
 
 ul{
 	margin-left: 50px;
