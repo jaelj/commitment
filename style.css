@@ -63,7 +63,6 @@
 	border-right: 25px solid transparent;
 	border-top: 50px solid black;
 	color: black;
-	
 
 }
 .right{ 
@@ -88,8 +87,7 @@ body{
 	top:0px;
 	font-family:verdana;
 	border-style: inset;
-	border-color: black;
-			
+	border-color: black;		
 }
 
 h1{
@@ -142,7 +140,7 @@ br1{
 	top: 0;
 	width: 50px;
 	height: 80px;
-	background: black;
+	background: red;
 	border-radius: 50px 50px 0 0;
 	transform: rotate(-45deg);
 	transform-origin: 0 100%;
